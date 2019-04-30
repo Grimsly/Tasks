@@ -4,7 +4,7 @@ Benjamin Low
 
 ## Work/Project Examples
 
-__As I have been working on nothing but Xcode projects these past months, I figure it might be best for me to reference them.__
+__As I have been working on nothing but Xcode projects these past months, I figure it might be best for me to boast about them.__
 
 ### YMCA iOS Application
 
