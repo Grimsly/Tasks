@@ -18,15 +18,19 @@ Unfortunately, we cannot show our code to the public, but I can provide some scr
 
 #### Prototype
 
-![alt text][prototype-home] Adobe XD prototype for the Home page
+![alt text][prototype-home] 
+Adobe XD prototype for the Home page
 
-![alt text][prototype-profile] Adobe XD prototype for the Profile page
+![alt text][prototype-profile] 
+Adobe XD prototype for the Profile page
 
 #### iOS App
 
-![alt text][homepage] iOS Home page
+![alt text][homepage] 
+iOS Home page
 
-![alt text][profile] iOS Profile page
+![alt text][profile] 
+iOS Profile page
 
 ### Campus MApp
 
@@ -43,9 +47,11 @@ In order to run the project, Xcode is needed. Go into the folder "CMScheduleExt"
 
 #### Screenshots
 
-![alt text][schedule] Campus MApp Schedule
+![alt text][schedule] 
+Campus MApp Schedule
 
-![alt text][classes] Campus MApp Class Picker
+![alt text][classes] 
+Campus MApp Class Picker
 
 ### Kobun-Mobile
 
@@ -55,11 +61,15 @@ An app that I created in 1 day. Not particularly impressive design-wise for an a
 - For now, the app only has drills from Kobun-Online, but I do plan to redesign the app one day to also include more space for the classical Japanese info pages.
 - Reads from a JSON file to get the drills. To add more drills, just edit the JSON file.
 
+In order to run the project, Xcode is needed. Go into the folder "JapaneseText" and open "JapaneseText.xcodeproj".
+
 #### Screenshots
 
-![alt text][kobun-home] Kobun-Mobile Home Page
+![alt text][kobun-home] 
+Kobun-Mobile Home Page
 
-![alt text][kobun-drills] Kobun-Mobile Drills
+![alt text][kobun-drills] 
+Kobun-Mobile Drills
 
 ## Inspiration
 
