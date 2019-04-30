@@ -4,15 +4,15 @@ Benjamin Low
 
 ## Work/Project Examples
 
-_As I have been working on nothing but Xcode projects these past months, I figure it might be best for me to reference them._**
+_As I have been working on nothing but Xcode projects these past months, I figure it might be best for me to reference them._
 
 ### YMCA iOS Application
 
 On January 2019, YMCA Calgary came to my instructor, requesting for a mobile app redesign. Their original app was outdated to say the least. Tabs brought you to webpages, "Hamburger" button pushes the screen to the side instead of overlaying on top of it, all categories was packed into the "Hamburger" menu, putting a class into your phone's calendar makes you subscribe to the class (meaning all instances of that class in the future would also be sent to the calendar) with no other choice, and various other small issues. Their app was not very popular with both the Apple and Android crowd, averaging about 1.5 - 2.5 stars. Me and my other group members got assigned to the project.
--The main goal of YMCA Calgary is to get a design down and make it as modern as possible. So me and my other group members all took the roles of UI Designer and started coming up with our own designs and then propose them to the clients to see from each design, which parts they like.
--After gathering feedback from the clients and anyone else that we could ask, I eventually became the Head UI Designer and combined all the designs into one. If a design change is proposed, they needed to go through me.
--We went to coding the actual app with Swift in Xcode after the prototype phase. (The plan was to start with iOS first for the beta and then eventually to Android with Android Studio)
--My role in the Xcode project is to work on the Home Page and the Schedule page. 
+- The main goal of YMCA Calgary is to get a design down and make it as modern as possible. So me and my other group members all took the roles of UI Designer and started coming up with our own designs and then propose them to the clients to see from each design, which parts they like.
+- After gathering feedback from the clients and anyone else that we could ask, I eventually became the Head UI Designer and combined all the designs into one. If a design change is proposed, they needed to go through me.
+- We went to coding the actual app with Swift in Xcode after the prototype phase. (The plan was to start with iOS first for the beta and then eventually to Android with Android Studio)
+- My role in the Xcode project is to work on the Home Page and the Schedule page. 
 
 Unfortunately, we cannot show our code to the public, but I can provide some screenshots and descriptions.
 
@@ -35,11 +35,11 @@ Unfortunately, we cannot show our code to the public, but I can provide some scr
 ### Campus MApp
 
 A small startup that started in University of Calgary. Their product is a mobile app that would help students traverse through their respective campuses. Using 3D models of buildings, they hope to help students better find their classrooms easier and maybe help out others who came to the University of Calgary for a specific event.
--In order to make the app better suited for students, they wanted to add an in-app schedule that users would be able to refer to. Clicking on a class in the schedule would lead the user to their desired class in the map.
--Took on the project along with my other group members and took on the role of Head UI Designer.
--Drew the designs on paper first and when group members came to an agreement on what the app should look like, went on to prototype in Adobe XD.
--After getting feedback from clients and anyone else, went on to work on the front end of the app using Xcode, more particularly the schedule.
--App uses OCR to read screenshots of students' school schedules and adds those courses to the app's schedule. User also has the ability to manually add their courses.
+- In order to make the app better suited for students, they wanted to add an in-app schedule that users would be able to refer to. Clicking on a class in the schedule would lead the user to their desired class in the map.
+- Took on the project along with my other group members and took on the role of Head UI Designer.
+- Drew the designs on paper first and when group members came to an agreement on what the app should look like, went on to prototype in Adobe XD.
+- After getting feedback from clients and anyone else, went on to work on the front end of the app using Xcode, more particularly the schedule.
+- App uses OCR to read screenshots of students' school schedules and adds those courses to the app's schedule. User also has the ability to manually add their courses.
 
 The project is at https://github.com/ColinThompson1/CampusMap
 
@@ -56,10 +56,10 @@ In order to run the project, Xcode is needed. Go into the folder "CMScheduleExt"
 ### Kobun-Mobile
 
 An app that I created in 1 day. Not particularly impressive design-wise for an app, but it was more a challenge I took on during my free time. Based on Professor X.Jie Yang's [Kobun-Online](https://people.ucalgary.ca/~xyang/kobun/kobun.html)
--Kobun-Online is website that contains not only information about classical Japanese, but also contains drills that help students get used to certain grammar points of classical Japanese.
--Programmed the app in Swift for iOS
--For now, the app only has drills from Kobun-Online, but I do plan to redesign the app one day to also include more space for the classical Japanese info pages.
--Reads from a JSON file to get the drills. To add more drills, just edit the JSON file.
+- Kobun-Online is website that contains not only information about classical Japanese, but also contains drills that help students get used to certain grammar points of classical Japanese.
+- Programmed the app in Swift for iOS
+- For now, the app only has drills from Kobun-Online, but I do plan to redesign the app one day to also include more space for the classical Japanese info pages.
+- Reads from a JSON file to get the drills. To add more drills, just edit the JSON file.
 
 #### Screenshots
 
