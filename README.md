@@ -100,7 +100,7 @@ First, I parse the string into an array by checking for the next line. The array
 For further details on the code, see the comments in the CodeSandbox.
 
 
-[prototype-home]:
+[prototype-home]: https://github.com/Grimsly/Tasks/blob/master/Prototype%20Homepage.png
 [prototype-profile]:
 [homepage]:
 [profile]:
