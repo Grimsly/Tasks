@@ -18,7 +18,7 @@ Unfortunately, we cannot show our code to the public, but I can provide some scr
 
 #### Prototype
 
-![alt text](https://github.com/Grimsly/Tasks/blob/master/Prototype%20Homepage.png)
+<p align="center">![alt text](https://github.com/Grimsly/Tasks/blob/master/Prototype%20Homepage.png)</p>
 <p align="center">_Adobe XD prototype for the Home page_</p>
 
 <p align="center">![alt text][prototype-profile]</p>
