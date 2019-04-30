@@ -18,19 +18,15 @@ Unfortunately, we cannot show our code to the public, but I can provide some scr
 
 #### Prototype
 
-<p align="center">![alt text](https://github.com/Grimsly/Tasks/blob/master/Prototype%20Homepage.png)</p>
-<p align="center">_Adobe XD prototype for the Home page_</p>
+![alt text][prototype-home] Adobe XD prototype for the Home page
 
-<p align="center">![alt text][prototype-profile]</p>
-<p align="center">_Adobe XD prototype for the Profile page_</p>
+![alt text][prototype-profile] Adobe XD prototype for the Profile page
 
 #### iOS App
 
-<p align="center">![alt text][homepage]</p>
-<p align="center">*iOS Home page*</p>
+![alt text][homepage] iOS Home page
 
-<p align="center">![alt text][profile]</p>
-<p align="center">*iOS Profile page*</p>
+![alt text][profile] iOS Profile page
 
 ### Campus MApp
 
@@ -47,11 +43,9 @@ In order to run the project, Xcode is needed. Go into the folder "CMScheduleExt"
 
 #### Screenshots
 
-<p align="center">![alt text][schedule]</p>
-<p align="center">*Campus MApp Schedule*</p>
+![alt text][schedule] Campus MApp Schedule
 
-<p align="center">![alt text][classes]</p>
-<p align="center">*Campus MApp Class Picker*</p>
+![alt text][classes] Campus MApp Class Picker
 
 ### Kobun-Mobile
 
@@ -63,11 +57,9 @@ An app that I created in 1 day. Not particularly impressive design-wise for an a
 
 #### Screenshots
 
-<p align="center">![alt text][kobun-home]</p>
-<p align="center">*Kobun-Mobile Home Page*</p>
+![alt text][kobun-home] Kobun-Mobile Home Page
 
-<p align="center">![alt text][kobun-drills]</p>
-<p align="center">*Kobun-Mobile Drills*</p>
+![alt text][kobun-drills] Kobun-Mobile Drills
 
 ## Inspiration
 
