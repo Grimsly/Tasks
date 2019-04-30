@@ -6,7 +6,7 @@ Benjamin Low
 
 _As I have been working on nothing but Xcode projects these past months, I figure it might be best for me to reference them._**
 
-###YMCA iOS Application
+### YMCA iOS Application
 
 On January 2019, YMCA Calgary came to my instructor, requesting for a mobile app redesign. Their original app was outdated to say the least. Tabs brought you to webpages, "Hamburger" button pushes the screen to the side instead of overlaying on top of it, all categories was packed into the "Hamburger" menu, putting a class into your phone's calendar makes you subscribe to the class (meaning all instances of that class in the future would also be sent to the calendar) with no other choice, and various other small issues. Their app was not very popular with both the Apple and Android crowd, averaging about 1.5 - 2.5 stars. Me and my other group members got assigned to the project.
 -The main goal of YMCA Calgary is to get a design down and make it as modern as possible. So me and my other group members all took the roles of UI Designer and started coming up with our own designs and then propose them to the clients to see from each design, which parts they like.
@@ -16,7 +16,7 @@ On January 2019, YMCA Calgary came to my instructor, requesting for a mobile app
 
 Unfortunately, we cannot show our code to the public, but I can provide some screenshots and descriptions.
 
-####Prototype
+#### Prototype
 
 <p align="center">![alt text][prototype-home]</p>
 <p align="center">*Adobe XD prototype for the Home page*</p>
@@ -24,7 +24,7 @@ Unfortunately, we cannot show our code to the public, but I can provide some scr
 <p align="center">![alt text][prototype-profile]</p>
 <p align="center">*Adobe XD prototype for the Profile page*</p>
 
-####iOS App
+#### iOS App
 
 <p align="center">![alt text][homepage]</p>
 <p align="center">*iOS Home page*</p>
@@ -32,7 +32,7 @@ Unfortunately, we cannot show our code to the public, but I can provide some scr
 <p align="center">![alt text][profile]</p>
 <p align="center">*iOS Profile page*</p>
 
-###Campus MApp
+### Campus MApp
 
 A small startup that started in University of Calgary. Their product is a mobile app that would help students traverse through their respective campuses. Using 3D models of buildings, they hope to help students better find their classrooms easier and maybe help out others who came to the University of Calgary for a specific event.
 -In order to make the app better suited for students, they wanted to add an in-app schedule that users would be able to refer to. Clicking on a class in the schedule would lead the user to their desired class in the map.
@@ -45,7 +45,7 @@ The project is at https://github.com/ColinThompson1/CampusMap
 
 In order to run the project, Xcode is needed. Go into the folder "CMScheduleExt" and open "CMScheduleExt.xcodeproj".
 
-####Screenshots
+#### Screenshots
 
 <p align="center">![alt text][schedule]</p>
 <p align="center">*Campus MApp Schedule*</p>
@@ -53,7 +53,7 @@ In order to run the project, Xcode is needed. Go into the folder "CMScheduleExt"
 <p align="center">![alt text][classes]</p>
 <p align="center">*Campus MApp Class Picker*</p>
 
-###Kobun-Mobile
+### Kobun-Mobile
 
 An app that I created in 1 day. Not particularly impressive design-wise for an app, but it was more a challenge I took on during my free time. Based on Professor X.Jie Yang's [Kobun-Online](https://people.ucalgary.ca/~xyang/kobun/kobun.html)
 -Kobun-Online is website that contains not only information about classical Japanese, but also contains drills that help students get used to certain grammar points of classical Japanese.
@@ -61,7 +61,7 @@ An app that I created in 1 day. Not particularly impressive design-wise for an a
 -For now, the app only has drills from Kobun-Online, but I do plan to redesign the app one day to also include more space for the classical Japanese info pages.
 -Reads from a JSON file to get the drills. To add more drills, just edit the JSON file.
 
-####Screenshots
+#### Screenshots
 
 <p align="center">![alt text][kobun-home]</p>
 <p align="center">*Kobun-Mobile Home Page*</p>
@@ -71,7 +71,7 @@ An app that I created in 1 day. Not particularly impressive design-wise for an a
 
 ## Inspiration
 
-###Table Views for Xcode
+### Table Views for Xcode
 
 https://www.smashingmagazine.com/2017/11/designing-app-idea-sketch-xcode/
 
@@ -79,7 +79,7 @@ Although pretty basic, this article was what got me started on how to properly u
 
 When I first started out with Xcode, I followed this tutorial (https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/CreateATableView.html), so I had the notion that table view cells were only just images and text. Then I saw "CELL FIVE" of the article, where they put a scroll view into a cell, meaning that you can put in other subviews inside a cell. It blew my mind and rocked my world. It made me realize I could do so much more with table views in Xcode. I usually send this article to anyone who is new to Xcode and working with table views.
 
-###Refactoring Techniques
+### Refactoring Techniques
 
 https://sourcemaking.com/refactoring
 
