@@ -12,7 +12,8 @@ On January 2019, YMCA Calgary came to my instructor, requesting for a mobile app
 - The main goal of YMCA Calgary is to get a design down and make it as modern as possible. So me and my other group members all took the roles of UI Designer and started coming up with our own designs and then propose them to the clients to see from each design, which parts they like.
 - After gathering feedback from the clients and anyone else that we could ask, I eventually became the Head UI Designer and combined all the designs into one. If a design change is proposed, they needed to go through me.
 - We went to coding the actual app with Swift in Xcode after the prototype phase. (The plan was to start with iOS first for the beta and then eventually to Android with Android Studio)
-- My role in the Xcode project is to work on the Home Page and the Schedule page. 
+- My role in the Xcode project is to work on the Home Page and the Profile page.
+- Xcode project still in progress.
 
 Unfortunately, we cannot show our code to the public, but I can provide some screenshots and descriptions.
 
