@@ -18,18 +18,22 @@ Unfortunately, we cannot show our code to the public, but I can provide some scr
 
 #### Prototype
 
-![alt text][prototype-home] 
+![alt text][prototype-home]
+
 Adobe XD prototype for the Home page
 
 ![alt text][prototype-profile] 
+
 Adobe XD prototype for the Profile page
 
 #### iOS App
 
 ![alt text][homepage] 
+
 iOS Home page
 
 ![alt text][profile] 
+
 iOS Profile page
 
 ### Campus MApp
@@ -48,9 +52,11 @@ In order to run the project, Xcode is needed. Go into the folder "CMScheduleExt"
 #### Screenshots
 
 ![alt text][schedule] 
+
 Campus MApp Schedule
 
 ![alt text][classes] 
+
 Campus MApp Class Picker
 
 ### Kobun-Mobile
@@ -66,9 +72,11 @@ In order to run the project, Xcode is needed. Go into the folder "JapaneseText" 
 #### Screenshots
 
 ![alt text][kobun-home] 
+
 Kobun-Mobile Home Page
 
 ![alt text][kobun-drills] 
+
 Kobun-Mobile Drills
 
 ## Inspiration
