@@ -93,10 +93,10 @@ For further details on the code, see the comments in the CodeSandbox.
 
 
 [prototype-home]: https://github.com/Grimsly/Tasks/blob/master/Prototype%20Homepage.png
-[prototype-profile]:
-[homepage]:
-[profile]:
-[schedule]:
-[classes]:
-[kobun-home]:
-[kobun-drills]:
+[prototype-profile]: https://github.com/Grimsly/Tasks/blob/master/Prototype%20Profile.png
+[homepage]: https://github.com/Grimsly/Tasks/blob/master/YMCA%20Homepage.png
+[profile]: https://github.com/Grimsly/Tasks/blob/master/YMCA%20Profile.png
+[schedule]: https://github.com/Grimsly/Tasks/blob/master/Campus%20MApp%20Schedule.png
+[classes]: https://github.com/Grimsly/Tasks/blob/master/Campus%20MApp%20ClassPicker.png
+[kobun-home]: https://github.com/Grimsly/Tasks/blob/master/Kobun%20Home.png
+[kobun-drills]: https://github.com/Grimsly/Tasks/blob/master/Kobun%20Drill.png
