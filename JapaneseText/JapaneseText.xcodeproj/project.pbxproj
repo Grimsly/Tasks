@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCD2E6B6225BBAEC00D028DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6B5225BBAEC00D028DA /* AppDelegate.swift */; };
+		DCD2E6BB225BBAEC00D028DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD2E6B9225BBAEC00D028DA /* Main.storyboard */; };
+		DCD2E6BD225BBAEE00D028DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD2E6BC225BBAEE00D028DA /* Assets.xcassets */; };
+		DCD2E6C0225BBAEE00D028DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD2E6BE225BBAEE00D028DA /* LaunchScreen.storyboard */; };
+		DCD2E6CB225BBAEE00D028DA /* JapaneseTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6CA225BBAEE00D028DA /* JapaneseTextTests.swift */; };
+		DCD2E6D6225BBAEE00D028DA /* JapaneseTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6D5225BBAEE00D028DA /* JapaneseTextUITests.swift */; };
+		DCD2E6EA225BFCAF00D028DA /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6E9225BFCAF00D028DA /* HomeTableViewController.swift */; };
+		DCD2E6EC225BFDAB00D028DA /* OneLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6EB225BFDAB00D028DA /* OneLineTableViewCell.swift */; };
+		DCD2E6EE225C0DFA00D028DA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6ED225C0DFA00D028DA /* Question.swift */; };
+		DCD2E6F4225C2C2200D028DA /* topics.json in Resources */ = {isa = PBXBuildFile; fileRef = DCD2E6F3225C2C2200D028DA /* topics.json */; };
+		DCD2E6F6225D4DA100D028DA /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6F5225D4DA100D028DA /* Chapter.swift */; };
+		DCD2E6F8225D588100D028DA /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6F7225D588100D028DA /* Topic.swift */; };
+		DCD2E6FA225D59B300D028DA /* Subtopic.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6F9225D59B300D028DA /* Subtopic.swift */; };
+		DCD2E6FC225D5BEE00D028DA /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6FB225D5BEE00D028DA /* Subject.swift */; };
+		DCD2E6FE225D688E00D028DA /* TopicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6FD225D688E00D028DA /* TopicTableViewController.swift */; };
+		DCD2E700225D75F100D028DA /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD2E6FF225D75F100D028DA /* QuestionViewController.swift */; };
+		DCD2E703225D9B5000D028DA /* aoyagireisyosimo_otf_2_01.otf in Resources */ = {isa = PBXBuildFile; fileRef = DCD2E702225D9B5000D028DA /* aoyagireisyosimo_otf_2_01.otf */; };
+		DCD2E705225D9C7B00D028DA /* Taroko.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCD2E704225D9C7B00D028DA /* Taroko.ttf */; };
+		DCD2E707225D9DED00D028DA /* OtsutomeFont_Ver2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DCD2E706225D9DED00D028DA /* OtsutomeFont_Ver2.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCD2E6C7225BBAEE00D028DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD2E6AA225BBAEB00D028DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD2E6B1225BBAEC00D028DA;
+			remoteInfo = JapaneseText;
+		};
+		DCD2E6D2225BBAEE00D028DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD2E6AA225BBAEB00D028DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD2E6B1225BBAEC00D028DA;
+			remoteInfo = JapaneseText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCD2E6B2225BBAEC00D028DA /* JapaneseText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JapaneseText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD2E6B5225BBAEC00D028DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCD2E6BA225BBAEC00D028DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCD2E6BC225BBAEE00D028DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCD2E6BF225BBAEE00D028DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCD2E6C1225BBAEE00D028DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD2E6C6225BBAEE00D028DA /* JapaneseTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapaneseTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD2E6CA225BBAEE00D028DA /* JapaneseTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapaneseTextTests.swift; sourceTree = "<group>"; };
+		DCD2E6CC225BBAEE00D028DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD2E6D1225BBAEE00D028DA /* JapaneseTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JapaneseTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD2E6D5225BBAEE00D028DA /* JapaneseTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapaneseTextUITests.swift; sourceTree = "<group>"; };
+		DCD2E6D7225BBAEE00D028DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD2E6E9225BFCAF00D028DA /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		DCD2E6EB225BFDAB00D028DA /* OneLineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneLineTableViewCell.swift; sourceTree = "<group>"; };
+		DCD2E6ED225C0DFA00D028DA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		DCD2E6F3225C2C2200D028DA /* topics.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = topics.json; sourceTree = "<group>"; };
+		DCD2E6F5225D4DA100D028DA /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
+		DCD2E6F7225D588100D028DA /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		DCD2E6F9225D59B300D028DA /* Subtopic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subtopic.swift; sourceTree = "<group>"; };
+		DCD2E6FB225D5BEE00D028DA /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		DCD2E6FD225D688E00D028DA /* TopicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicTableViewController.swift; sourceTree = "<group>"; };
+		DCD2E6FF225D75F100D028DA /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		DCD2E702225D9B5000D028DA /* aoyagireisyosimo_otf_2_01.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = aoyagireisyosimo_otf_2_01.otf; path = ../../../Downloads/aoyagireisyosimo_otf_2_01/aoyagireisyosimo_otf_2_01.otf; sourceTree = "<group>"; };
+		DCD2E704225D9C7B00D028DA /* Taroko.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Taroko.ttf; path = ../../../Downloads/Taroko.ttf; sourceTree = "<group>"; };
+		DCD2E706225D9DED00D028DA /* OtsutomeFont_Ver2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = OtsutomeFont_Ver2.ttf; path = ../../../Downloads/Othutome_font_ver2/OtsutomeFont_Ver2.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD2E6AF225BBAEC00D028DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD2E6C3225BBAEE00D028DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD2E6CE225BBAEE00D028DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCD2E6A9225BBAEB00D028DA = {
+			isa = PBXGroup;
+			children = (
+				DCD2E6B4225BBAEC00D028DA /* JapaneseText */,
+				DCD2E701225D9B2800D028DA /* Font */,
+				DCD2E6C9225BBAEE00D028DA /* JapaneseTextTests */,
+				DCD2E6D4225BBAEE00D028DA /* JapaneseTextUITests */,
+				DCD2E6B3225BBAEC00D028DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD2E6B3225BBAEC00D028DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD2E6B2225BBAEC00D028DA /* JapaneseText.app */,
+				DCD2E6C6225BBAEE00D028DA /* JapaneseTextTests.xctest */,
+				DCD2E6D1225BBAEE00D028DA /* JapaneseTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD2E6B4225BBAEC00D028DA /* JapaneseText */ = {
+			isa = PBXGroup;
+			children = (
+				DCD2E6BE225BBAEE00D028DA /* LaunchScreen.storyboard */,
+				DCD2E6B9225BBAEC00D028DA /* Main.storyboard */,
+				DCD2E6B5225BBAEC00D028DA /* AppDelegate.swift */,
+				DCD2E6E9225BFCAF00D028DA /* HomeTableViewController.swift */,
+				DCD2E6FD225D688E00D028DA /* TopicTableViewController.swift */,
+				DCD2E6FF225D75F100D028DA /* QuestionViewController.swift */,
+				DCD2E6ED225C0DFA00D028DA /* Question.swift */,
+				DCD2E6EB225BFDAB00D028DA /* OneLineTableViewCell.swift */,
+				DCD2E6F5225D4DA100D028DA /* Chapter.swift */,
+				DCD2E6F7225D588100D028DA /* Topic.swift */,
+				DCD2E6F9225D59B300D028DA /* Subtopic.swift */,
+				DCD2E6FB225D5BEE00D028DA /* Subject.swift */,
+				DCD2E6BC225BBAEE00D028DA /* Assets.xcassets */,
+				DCD2E6C1225BBAEE00D028DA /* Info.plist */,
+				DCD2E6F3225C2C2200D028DA /* topics.json */,
+			);
+			path = JapaneseText;
+			sourceTree = "<group>";
+		};
+		DCD2E6C9225BBAEE00D028DA /* JapaneseTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD2E6CA225BBAEE00D028DA /* JapaneseTextTests.swift */,
+				DCD2E6CC225BBAEE00D028DA /* Info.plist */,
+			);
+			path = JapaneseTextTests;
+			sourceTree = "<group>";
+		};
+		DCD2E6D4225BBAEE00D028DA /* JapaneseTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD2E6D5225BBAEE00D028DA /* JapaneseTextUITests.swift */,
+				DCD2E6D7225BBAEE00D028DA /* Info.plist */,
+			);
+			path = JapaneseTextUITests;
+			sourceTree = "<group>";
+		};
+		DCD2E701225D9B2800D028DA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				DCD2E706225D9DED00D028DA /* OtsutomeFont_Ver2.ttf */,
+				DCD2E704225D9C7B00D028DA /* Taroko.ttf */,
+				DCD2E702225D9B5000D028DA /* aoyagireisyosimo_otf_2_01.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD2E6B1225BBAEC00D028DA /* JapaneseText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD2E6DA225BBAEE00D028DA /* Build configuration list for PBXNativeTarget "JapaneseText" */;
+			buildPhases = (
+				DCD2E6AE225BBAEC00D028DA /* Sources */,
+				DCD2E6AF225BBAEC00D028DA /* Frameworks */,
+				DCD2E6B0225BBAEC00D028DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JapaneseText;
+			productName = JapaneseText;
+			productReference = DCD2E6B2225BBAEC00D028DA /* JapaneseText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCD2E6C5225BBAEE00D028DA /* JapaneseTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD2E6DD225BBAEE00D028DA /* Build configuration list for PBXNativeTarget "JapaneseTextTests" */;
+			buildPhases = (
+				DCD2E6C2225BBAEE00D028DA /* Sources */,
+				DCD2E6C3225BBAEE00D028DA /* Frameworks */,
+				DCD2E6C4225BBAEE00D028DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD2E6C8225BBAEE00D028DA /* PBXTargetDependency */,
+			);
+			name = JapaneseTextTests;
+			productName = JapaneseTextTests;
+			productReference = DCD2E6C6225BBAEE00D028DA /* JapaneseTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCD2E6D0225BBAEE00D028DA /* JapaneseTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD2E6E0225BBAEE00D028DA /* Build configuration list for PBXNativeTarget "JapaneseTextUITests" */;
+			buildPhases = (
+				DCD2E6CD225BBAEE00D028DA /* Sources */,
+				DCD2E6CE225BBAEE00D028DA /* Frameworks */,
+				DCD2E6CF225BBAEE00D028DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD2E6D3225BBAEE00D028DA /* PBXTargetDependency */,
+			);
+			name = JapaneseTextUITests;
+			productName = JapaneseTextUITests;
+			productReference = DCD2E6D1225BBAEE00D028DA /* JapaneseTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD2E6AA225BBAEB00D028DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Xian-Meng Low";
+				TargetAttributes = {
+					DCD2E6B1225BBAEC00D028DA = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					DCD2E6C5225BBAEE00D028DA = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DCD2E6B1225BBAEC00D028DA;
+					};
+					DCD2E6D0225BBAEE00D028DA = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = DCD2E6B1225BBAEC00D028DA;
+					};
+				};
+			};
+			buildConfigurationList = DCD2E6AD225BBAEC00D028DA /* Build configuration list for PBXProject "JapaneseText" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCD2E6A9225BBAEB00D028DA;
+			productRefGroup = DCD2E6B3225BBAEC00D028DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD2E6B1225BBAEC00D028DA /* JapaneseText */,
+				DCD2E6C5225BBAEE00D028DA /* JapaneseTextTests */,
+				DCD2E6D0225BBAEE00D028DA /* JapaneseTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD2E6B0225BBAEC00D028DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD2E707225D9DED00D028DA /* OtsutomeFont_Ver2.ttf in Resources */,
+				DCD2E705225D9C7B00D028DA /* Taroko.ttf in Resources */,
+				DCD2E6C0225BBAEE00D028DA /* LaunchScreen.storyboard in Resources */,
+				DCD2E6F4225C2C2200D028DA /* topics.json in Resources */,
+				DCD2E6BD225BBAEE00D028DA /* Assets.xcassets in Resources */,
+				DCD2E6BB225BBAEC00D028DA /* Main.storyboard in Resources */,
+				DCD2E703225D9B5000D028DA /* aoyagireisyosimo_otf_2_01.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD2E6C4225BBAEE00D028DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD2E6CF225BBAEE00D028DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD2E6AE225BBAEC00D028DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD2E6EA225BFCAF00D028DA /* HomeTableViewController.swift in Sources */,
+				DCD2E6FA225D59B300D028DA /* Subtopic.swift in Sources */,
+				DCD2E6FE225D688E00D028DA /* TopicTableViewController.swift in Sources */,
+				DCD2E6EC225BFDAB00D028DA /* OneLineTableViewCell.swift in Sources */,
+				DCD2E6F6225D4DA100D028DA /* Chapter.swift in Sources */,
+				DCD2E6EE225C0DFA00D028DA /* Question.swift in Sources */,
+				DCD2E6B6225BBAEC00D028DA /* AppDelegate.swift in Sources */,
+				DCD2E6FC225D5BEE00D028DA /* Subject.swift in Sources */,
+				DCD2E6F8225D588100D028DA /* Topic.swift in Sources */,
+				DCD2E700225D75F100D028DA /* QuestionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD2E6C2225BBAEE00D028DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD2E6CB225BBAEE00D028DA /* JapaneseTextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD2E6CD225BBAEE00D028DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD2E6D6225BBAEE00D028DA /* JapaneseTextUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCD2E6C8225BBAEE00D028DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD2E6B1225BBAEC00D028DA /* JapaneseText */;
+			targetProxy = DCD2E6C7225BBAEE00D028DA /* PBXContainerItemProxy */;
+		};
+		DCD2E6D3225BBAEE00D028DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD2E6B1225BBAEC00D028DA /* JapaneseText */;
+			targetProxy = DCD2E6D2225BBAEE00D028DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCD2E6B9225BBAEC00D028DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD2E6BA225BBAEC00D028DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCD2E6BE225BBAEE00D028DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD2E6BF225BBAEE00D028DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD2E6D8225BBAEE00D028DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCD2E6D9225BBAEE00D028DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD2E6DB225BBAEE00D028DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JapaneseText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xmlow.JapaneseText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCD2E6DC225BBAEE00D028DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JapaneseText/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xmlow.JapaneseText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCD2E6DE225BBAEE00D028DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JapaneseTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xmlow.JapaneseTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapaneseText.app/JapaneseText";
+			};
+			name = Debug;
+		};
+		DCD2E6DF225BBAEE00D028DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JapaneseTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xmlow.JapaneseTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JapaneseText.app/JapaneseText";
+			};
+			name = Release;
+		};
+		DCD2E6E1225BBAEE00D028DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JapaneseTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xmlow.JapaneseTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JapaneseText;
+			};
+			name = Debug;
+		};
+		DCD2E6E2225BBAEE00D028DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JapaneseTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xmlow.JapaneseTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JapaneseText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD2E6AD225BBAEC00D028DA /* Build configuration list for PBXProject "JapaneseText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD2E6D8225BBAEE00D028DA /* Debug */,
+				DCD2E6D9225BBAEE00D028DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD2E6DA225BBAEE00D028DA /* Build configuration list for PBXNativeTarget "JapaneseText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD2E6DB225BBAEE00D028DA /* Debug */,
+				DCD2E6DC225BBAEE00D028DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD2E6DD225BBAEE00D028DA /* Build configuration list for PBXNativeTarget "JapaneseTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD2E6DE225BBAEE00D028DA /* Debug */,
+				DCD2E6DF225BBAEE00D028DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD2E6E0225BBAEE00D028DA /* Build configuration list for PBXNativeTarget "JapaneseTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD2E6E1225BBAEE00D028DA /* Debug */,
+				DCD2E6E2225BBAEE00D028DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD2E6AA225BBAEB00D028DA /* Project object */;
+}

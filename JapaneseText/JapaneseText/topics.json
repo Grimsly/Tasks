@@ -1,0 +1,59 @@
+{
+    "chapters":[
+        {
+            "name" : "動詞",
+            "topics":[
+                {
+                    "name":"動詞の種類",
+                    "subtopics":[
+                        {
+                            "name":"四段活用動詞",
+                            "subjects":[
+                                {
+                                    "name": "未然形（ドリル）",
+                                    "questions": [{"question" : "思（おも）ふ＋ず","answer" : "おもはず"},{"question" : "泣（な）く＋ば","answer" : "なかば"},{"question" : "知（し）る＋ぬ","answer" : "しらぬ"},{"question" : "負（お）ふ＋ば","answer" : "おはば"},{"question" : "待つ＋ず","answer" : "またず"},{"question" : "結（むす）ぶ＋む","answer" : "むすばむ"},{"question" : "呼（よ）ぶ＋ず","answer" : "よばず"},{"question" : "積（つも）る＋ば","answer" : "つもらば"}]
+                                },
+                                {
+                                    "name": "連用形（ドリル）",
+                                    "questions": [{"question" : "通ふ＋て","answer" : "かよひて"},{"question" : "申す＋て","answer" : "もうして"},{"question" : "思ふ＋たり","answer" : "おもひたり"},{"question" : "使ふ＋けり","answer" : "つかひけり"},{"question" : "語る＋ぬ","answer" : "かたりぬ"},{"question" : "積る＋ぬ","answer" : "つもりぬ"},{"question" : "慰（なぐさ）む＋けり","answer" : "なぐさみけり"},{"question" : "住む＋けり","answer" : "すみけり"}]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "形容詞",
+            "topics":[
+                {
+                    "name": "形容詞の活用形",
+                    "subtopics":[
+                        {
+                            "name" : "未然形",
+                            "subjects": [
+                                {
+                                    "name" : "「ず」「む」に接続しなさい",
+                                    "questions" : [{"question" : "やすし＋ず","answer" : "やすからず"},{"question" : "古し＋ず","answer" : "古からず"},{"question" : "をかし＋ず","answer" : "をかしからず"},{"question" : "苦し＋ず","answer" : "苦からず"},{"question" : "広し＋む","answer" : "広からむ"},{"question" : "堅し＋む","answer" : "堅からむ"},{"question" : "浅まし＋む","answer" : "浅からむ"},{"question" : "恐ろし＋む","answer" : "恐ろしからむ"}]
+                                }
+                            ]
+                        },
+                        {
+                            "name" : "連用形",
+                            "subjects":[
+                                {
+                                    "name" : "「は」「とも」に接続しなさい",
+                                    "questions" : [{"question" : "少なし＋は","answer" : "少なくは"}, {"question" : "をさなし＋は","answer" : "をさなくは"}, {"question" : "甚だし＋は","answer" : "甚だしくは"}, {"question" : "いたはし＋は","answer" : "いたはしくは"}, {"question" : "遅し＋とも","answer" : "遅くとも"}, {"question" : "おぼつかなし＋とも","answer" : "おぼつかなくとも"}, {"question" : "むつかし＋とも","answer" : "むつかしくとも"}, {"question" : "おとなし＋とも","answer" : "おとなしくとも"}]
+                                },
+                                {
+                                    "name": "「けり」等に接続しなさい",
+                                    "questions" :[{"question" : "広し＋けり","answer" : "広かりけり"}, {"question" : "をさなし＋は","answer" : "をさなくは"}, {"question" : "甚だし＋は","answer" : "甚だしくは"}, {"question" : "いたはし＋は","answer" : "いたはしくは"}, {"question" : "遅し＋とも","answer" : "遅くとも"}, {"question" : "おぼつかなし＋とも","answer" : "おぼつかなくとも"}, {"question" : "むつかし＋とも","answer" : "むつかしくとも"}, {"question" : "おとなし＋とも","answer" : "おとなしくとも"}]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
