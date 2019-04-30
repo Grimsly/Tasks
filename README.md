@@ -4,7 +4,7 @@ Benjamin Low
 
 ## Work/Project Examples
 
-_As I have been working on nothing but Xcode projects these past months, I figure it might be best for me to reference them._
+__As I have been working on nothing but Xcode projects these past months, I figure it might be best for me to reference them.__
 
 ### YMCA iOS Application
 
@@ -19,10 +19,10 @@ Unfortunately, we cannot show our code to the public, but I can provide some scr
 #### Prototype
 
 <p align="center">![alt text][prototype-home]</p>
-<p align="center">*Adobe XD prototype for the Home page*</p>
+<p align="center">_Adobe XD prototype for the Home page_</p>
 
 <p align="center">![alt text][prototype-profile]</p>
-<p align="center">*Adobe XD prototype for the Profile page*</p>
+<p align="center">_Adobe XD prototype for the Profile page_</p>
 
 #### iOS App
 
